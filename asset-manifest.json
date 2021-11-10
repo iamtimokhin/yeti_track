@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yeti_track/static/css/main.5f65986e.chunk.css",
+    "main.js": "/yeti_track/static/js/main.6453051c.chunk.js",
+    "main.js.map": "/yeti_track/static/js/main.6453051c.chunk.js.map",
+    "runtime-main.js": "/yeti_track/static/js/runtime-main.5d0c7530.js",
+    "runtime-main.js.map": "/yeti_track/static/js/runtime-main.5d0c7530.js.map",
+    "static/js/2.e10c9ad8.chunk.js": "/yeti_track/static/js/2.e10c9ad8.chunk.js",
+    "static/js/2.e10c9ad8.chunk.js.map": "/yeti_track/static/js/2.e10c9ad8.chunk.js.map",
+    "index.html": "/yeti_track/index.html",
+    "static/css/main.5f65986e.chunk.css.map": "/yeti_track/static/css/main.5f65986e.chunk.css.map",
+    "static/js/2.e10c9ad8.chunk.js.LICENSE.txt": "/yeti_track/static/js/2.e10c9ad8.chunk.js.LICENSE.txt",
+    "static/media/face_with_monocle.ee49a5d2.gif": "/yeti_track/static/media/face_with_monocle.ee49a5d2.gif",
+    "static/media/ghost.2502efcb.gif": "/yeti_track/static/media/ghost.2502efcb.gif",
+    "static/media/woman_zombie.825b268d.gif": "/yeti_track/static/media/woman_zombie.825b268d.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d0c7530.js",
+    "static/js/2.e10c9ad8.chunk.js",
+    "static/css/main.5f65986e.chunk.css",
+    "static/js/main.6453051c.chunk.js"
+  ]
+}
