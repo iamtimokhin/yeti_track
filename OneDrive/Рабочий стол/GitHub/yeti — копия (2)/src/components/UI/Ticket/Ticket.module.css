@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+.application__length {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: -80px;
+}
+
+.application__length .application__notification {
+  color: #00ffc8;
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+}
+
+.ticket--section {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ticket--section .ticket__loadMore {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Staatliches", cursive;
+  width: 30%;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.ticket--section .ticket__loadMore:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+
+.ticket--section .ticket__wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #ffee00;
+  -webkit-box-shadow: 0.3em 0.3em #00ffc8, -0.3em -0.3em #ff0080;
+          box-shadow: 0.3em 0.3em #00ffc8, -0.3em -0.3em #ff0080;
+  margin-bottom: 20px;
+}
+
+.ticket--section .ticket__wrapper .ticket__emoji {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ticket--section .ticket__wrapper .ticket__text {
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__value {
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__request {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__request .ticket__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__date {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__date .ticket__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__company {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__company .ticket__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__carrier {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__carrier .ticket__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__phone {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__phone .ticket__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__status {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__status .ticket__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__comments {
+  font-family: "Staatliches", cursive;
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 95%;
+  height: 100%;
+  outline: none;
+}
+
+.ticket--section .ticket__wrapper .ticket__comments:focus {
+  border: 2px solid #00ffc8;
+  border-radius: 2px;
+}
+
+.ticket--section .ticket__wrapper .ticket__label {
+  font-family: "Staatliches", cursive;
+  color: #ff0080;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn .btn__open {
+  margin-top: 40px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn .btn__open:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn .btn__delete {
+  margin-top: 40px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn .btn__delete:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn .btn__archive {
+  margin-top: 40px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.ticket--section .ticket__wrapper .ticket__btn .btn__archive:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+/*# sourceMappingURL=Ticket.module.css.map */

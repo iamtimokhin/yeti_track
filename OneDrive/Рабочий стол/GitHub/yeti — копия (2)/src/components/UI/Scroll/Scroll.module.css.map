@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,GAAG;EACX,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,MAAM;EACf,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,kBAAkB,CAAC;EACf,MAAM,EAAE,GAAG;EAEX,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,mBAAmB;EAC/B,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "Scroll.module.scss"
+    ],
+    "names": [],
+    "file": "Scroll.module.css"
+}

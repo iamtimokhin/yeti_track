@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+// variables of styles 
+
+$bg-color: #ffee00;
+$shadow:0.3em 0.3em #00ffc8,
+-0.3em -0.3em #ff0080;
+$outline-focus: 2px solid#00ffc8;
+$color-text:#ff0080;
+
+// styles of TicketList 
+
+.application__length {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: -80px;
+
+    .application__notification {
+        color: #00ffc8;
+        font-family: "Staatliches", cursive;
+        font-size: 20px;
+    }
+}
+
+.ticket--section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .ticket__loadMore {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-family: "Staatliches", cursive;
+        width: 30%;
+        font-size: 1.4rem;
+        padding: 0.5em;
+        background-color: #120b2c;
+        box-shadow: 0.2em 0.2em #00ffc8;
+        border: 1px solid #120b2c;
+        color: #ffee00;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all .3s ease;
+
+        &:hover {
+            box-shadow: 0.2em 0.2em #ff0080;
+        }
+    }
+
+    .ticket__wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 20px;
+        background-color: $bg-color;
+        box-shadow: $shadow;
+        margin-bottom: 20px;
+
+
+        .ticket__emoji {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ticket__text {
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .ticket__value {
+            color: $color-text;
+        }
+
+        .ticket__request {
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .ticket__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+        }
+
+        .ticket__date {
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .ticket__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+        }
+
+        .ticket__company {
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .ticket__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+        }
+
+        .ticket__carrier {
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .ticket__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+        }
+
+        .ticket__phone {
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .ticket__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+        }
+
+        .ticket__status {
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .ticket__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+        }
+
+        .ticket__comments {
+            font-family: "Staatliches", cursive;
+            color: #000;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #fff;
+            width: 95%;
+            height: 100%;
+            outline: none;
+
+            &:focus {
+                border: $outline-focus;
+                border-radius: 2px;
+            }
+        }
+
+        .ticket__label {
+            font-family: "Staatliches", cursive;
+            color: $color-text;
+            margin-left: 15px;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .ticket__btn {
+            display: flex;
+            justify-content: space-around;
+
+            .btn__open {
+                margin-top: 40px;
+                font-family: "Staatliches", cursive;
+                font-size: 1.4rem;
+                padding: 0.5em;
+                background-color: #120b2c;
+                box-shadow: 0.2em 0.2em #00ffc8;
+                border: 1px solid #120b2c;
+                color: #ffee00;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all .3s ease;
+
+                &:hover {
+                    box-shadow: 0.2em 0.2em #ff0080;
+                }
+            }
+
+            .btn__delete {
+                margin-top: 40px;
+                font-family: "Staatliches", cursive;
+                font-size: 1.4rem;
+                padding: 0.5em;
+                background-color: #120b2c;
+                box-shadow: 0.2em 0.2em #00ffc8;
+                border: 1px solid #120b2c;
+                color: #ffee00;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all .3s ease;
+
+                &:hover {
+                    box-shadow: 0.2em 0.2em #ff0080;
+                }
+            }
+
+            .btn__archive {
+                margin-top: 40px;
+                font-family: "Staatliches", cursive;
+                font-size: 1.4rem;
+                padding: 0.5em;
+                background-color: #120b2c;
+                box-shadow: 0.2em 0.2em #00ffc8;
+                border: 1px solid #120b2c;
+                color: #ffee00;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all .3s ease;
+
+                &:hover {
+                    box-shadow: 0.2em 0.2em #ff0080;
+                }
+            }
+        }
+    }
+}

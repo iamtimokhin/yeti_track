@@ -1,0 +1,27 @@
+// import styles of ui-components
+
+@import "./components/UI/Header/Header.module.scss";
+@import "./components/UI/Footer/Footer.module.scss";
+@import "./components/UI/Ticket/Ticket.module.scss";
+@import "./components/UI/Form/Form.module.scss";
+@import "./components/UI/EditForm/EditForm.module.scss";
+@import "./components/UI/Loader/Loader.module.scss";
+@import "./components/UI/Modal/Modal.module.scss";
+@import "./components/UI/Scroll/Scroll.module.scss";
+@import "./components/UI/TicketId/TicketId.module.scss";
+
+// Defolt styles for body
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(90deg,
+            #1a042c,
+            #231b3f,
+            #2e197c,
+            #2e197c,
+            #2f0642);
+}

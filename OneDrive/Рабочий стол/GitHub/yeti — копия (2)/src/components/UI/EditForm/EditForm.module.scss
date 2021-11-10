@@ -1,0 +1,173 @@
+// variables of styles 
+
+$bg-color: #ffee00;
+$shadow:0.3em 0.3em #00ffc8,
+-0.3em -0.3em #ff0080;
+$outline-focus: 2px solid#00ffc8;
+$color-text:#ff0080;
+
+// styles for form
+
+.formEdit--section {
+    width: 100%;
+    height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    .formEdit__box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .formEdit__text {
+        font-family: "Staatliches", cursive;
+        color: $color-text;
+        font-size: 20px;
+    }
+
+    .btn__ok {
+        margin-top: 20px;
+        font-family: "Staatliches", cursive;
+        font-size: 1.4rem;
+        padding: 0.5em;
+        background-color: #120b2c;
+        box-shadow: 0.2em 0.2em #00ffc8;
+        border: 1px solid #120b2c;
+        color: #ffee00;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all .3s ease;
+
+        &:hover {
+            box-shadow: 0.2em 0.2em #ff0080;
+        }
+    }
+
+    .formEdit__wrapper {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 20px;
+        background-color: $bg-color;
+        box-shadow: $shadow;
+        margin-bottom: 20px;
+        z-index: 99999;
+
+        .formEdit__request {
+            padding: 5px;
+            border-radius: 6px;
+            background-color: #fff;
+            align-items: center;
+            width: 95%;
+            height: 50%;
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+
+            .formEdit__value {
+                margin-left: 15px;
+                color: $color-text;
+            }
+
+        }
+
+        .formEdit__title {
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 22px;
+        }
+
+        .formEdit__label {
+            font-family: "Staatliches", cursive;
+            color: #120b2c;
+            font-size: 20px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .formEdit__input {
+            width: 95%;
+            height: 25px;
+            outline: none;
+            font-family: "Staatliches", cursive;
+            color: #000;
+            font-size: 16px;
+
+            &:focus {
+                border: $outline-focus;
+                border-radius: 2px;
+            }
+
+
+        }
+
+        .formEdit__textarea {
+            font-family: "Staatliches", cursive;
+            color: #000;
+            font-size: 20px;
+            resize: none;
+            width: 95%;
+            height: 100%;
+            outline: none;
+
+            &:focus {
+                border: $outline-focus;
+                border-radius: 2px;
+            }
+        }
+
+        .formEdit__btn {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            .btn__save {
+                margin-top: 40px;
+                font-family: "Staatliches", cursive;
+                font-size: 1.4rem;
+                padding: 0.5em;
+                background-color: #120b2c;
+                box-shadow: 0.2em 0.2em #00ffc8;
+                border: 1px solid #120b2c;
+                color: #ffee00;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all .3s ease;
+
+                &:hover {
+                    box-shadow: 0.2em 0.2em #ff0080;
+                }
+            }
+
+            .btn__cancel {
+                margin-top: 40px;
+                font-family: "Staatliches", cursive;
+                font-size: 1.4rem;
+                padding: 0.5em;
+                background-color: #120b2c;
+                box-shadow: 0.2em 0.2em #00ffc8;
+                border: 1px solid #120b2c;
+                color: #ffee00;
+                cursor: pointer;
+                text-decoration: none;
+                transition: all .3s ease;
+
+                &:hover {
+                    box-shadow: 0.2em 0.2em #ff0080;
+                }
+            }
+        }
+    }
+}

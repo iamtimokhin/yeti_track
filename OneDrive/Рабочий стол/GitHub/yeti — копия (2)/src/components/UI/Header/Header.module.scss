@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+:root {
+    --shadow-brandname: 0.03em 0.03em #ffee00, -0.03em -0.03em #ff0080,
+        -0.03em 0.03em #dd7cf5, 0.03em -0.03em #00ffc8;
+}
+
+// styles of header
+$bg-color: #5345BF;
+$font-color: #fff;
+$font-size: 16px;
+
+.header--wrapper {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .header__add {
+        margin-top: 40px;
+        font-family: "Staatliches", cursive;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #ff0080;
+        animation-name: blink;
+        animation-timing-function: linear;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        .add__application {
+            font-family: "Staatliches", cursive;
+            letter-spacing: 1px;
+            font-size: 20px;
+            color: #00ffc8;
+            padding-left: 10px;
+        }
+    }
+
+    .header__quantity {
+        margin-top: 40px;
+        font-family: "Staatliches", cursive;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #ff0080;
+
+        .quantity__numbers {
+            font-family: "Staatliches", cursive;
+            letter-spacing: 1px;
+            font-size: 20px;
+            color: #00ffc8;
+            padding-left: 10px;
+        }
+    }
+
+    .header__input {
+        box-shadow: 0.3em 0.3em #00ffc8, -0.3em -0.3em #ff0080;
+        height: 35px;
+        width: 50%;
+        border: none;
+        background: transparent;
+        padding: 5px 5px 5px 30px;
+        color: #ff0080;
+        font-family: "Staatliches", cursive;
+        letter-spacing: 1px;
+        margin-top: -50px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: #00ffc8;
+        }
+    }
+
+    .header__media {
+        .media__brandname {
+            color: #323297;
+            text-shadow: var(--shadow-brandname);
+            font-family: "Staatliches", cursive;
+            font-size: clamp(5rem, 7vw, 15rem);
+            text-align: center;
+
+            &:hover {
+                animation: shake 0.5s;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

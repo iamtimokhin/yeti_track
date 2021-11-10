@@ -1,0 +1,196 @@
+.formEdit--section {
+  width: 100%;
+  height: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.formEdit--section .formEdit__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.formEdit--section .formEdit__text {
+  font-family: "Staatliches", cursive;
+  color: #ff0080;
+  font-size: 20px;
+}
+
+.formEdit--section .btn__ok {
+  margin-top: 20px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.formEdit--section .btn__ok:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+
+.formEdit--section .formEdit__wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #ffee00;
+  -webkit-box-shadow: 0.3em 0.3em #00ffc8, -0.3em -0.3em #ff0080;
+          box-shadow: 0.3em 0.3em #00ffc8, -0.3em -0.3em #ff0080;
+  margin-bottom: 20px;
+  z-index: 99999;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__request {
+  padding: 5px;
+  border-radius: 6px;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  height: 50%;
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__request .formEdit__value {
+  margin-left: 15px;
+  color: #ff0080;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__title {
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 22px;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__label {
+  font-family: "Staatliches", cursive;
+  color: #120b2c;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__input {
+  width: 95%;
+  height: 25px;
+  outline: none;
+  font-family: "Staatliches", cursive;
+  color: #000;
+  font-size: 16px;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__input:focus {
+  border: 2px solid #00ffc8;
+  border-radius: 2px;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__textarea {
+  font-family: "Staatliches", cursive;
+  color: #000;
+  font-size: 20px;
+  resize: none;
+  width: 95%;
+  height: 100%;
+  outline: none;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__textarea:focus {
+  border: 2px solid #00ffc8;
+  border-radius: 2px;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__btn .btn__save {
+  margin-top: 40px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__btn .btn__save:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__btn .btn__cancel {
+  margin-top: 40px;
+  font-family: "Staatliches", cursive;
+  font-size: 1.4rem;
+  padding: 0.5em;
+  background-color: #120b2c;
+  -webkit-box-shadow: 0.2em 0.2em #00ffc8;
+          box-shadow: 0.2em 0.2em #00ffc8;
+  border: 1px solid #120b2c;
+  color: #ffee00;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.formEdit--section .formEdit__wrapper .formEdit__btn .btn__cancel:hover {
+  -webkit-box-shadow: 0.2em 0.2em #ff0080;
+          box-shadow: 0.2em 0.2em #ff0080;
+}
+/*# sourceMappingURL=EditForm.module.css.map */
